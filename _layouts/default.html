@@ -1,6 +1,22 @@
 <!DOCTYPE html>
 <html>
 	<head>
+	
+		<!-- Yandex.Metrika counter -->
+        <script type="text/javascript" >
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(88371123, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/88371123" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
 		<title>{{ page.title }}</title>
 		<!-- link to main stylesheet -->
 		<link rel="stylesheet" type="text/css" href="/css/main.css"
@@ -25,6 +41,65 @@
         		<li><a href="https://githostedsite.github.io">githostedsite.github.io</a></li>
 			</ul>
 		</footer>
+		        <amp-analytics type="metrika">
+            
+				<script type="application/json">
+                {
+                    // Отправка параметров визита и посетителя
+                    "vars": {
+                        "counterId": "88371123",
+                        "yaParams": "{\"key\":\"value\",\"__ymu\":{\"user_param_key\":\"user_param_value\"}}"
+                    },
+                    // Передача триггеров
+                    "triggers": {
+                        // Точный показатель отказов
+                        "notBounce": {
+                            "on": "timer",
+                            "timerSpec": {
+                                "immediate": false,
+                                "interval": 15,
+                                "maxTimerLength": 14
+                            },
+                            "request": "notBounce"
+                        },
+                        // Скроллинг страницы
+                        "halfScroll": {
+                            "on": "scroll",
+                            "scrollSpec": {
+                                "verticalBoundaries": [
+                                    50
+                                ]
+                            },
+                            // Отслеживание скроллинга как цели
+                            "request": "reachGoal",
+                            "vars": {
+                                "goalId": "halfScrollGoal"
+                            }
+                        },
+                        // Скроллинг страницы
+                        "partsScroll": {
+                            "on": "scroll",
+                            "scrollSpec": {
+                                "verticalBoundaries": [
+                                    25,
+                                    90
+                                ]
+                            },
+                            // Отслеживание скроллинга как цели 
+                            "request": "reachGoal",
+                            "vars": {
+                                "goalId": "partsScrollGoal"
+                            }
+                        },
+                        // Скроллинг бесконечной ленты
+                        "trackScrollThrough": {
+                            "on": "amp-next-page-scroll",
+                            "request": "pageview"
+                        }
+                    }
+                }
+            </script>
+        </amp-analytics>
 	</body>
 </html>
 
