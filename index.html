@@ -1,8 +1,5 @@
 ---
 layout: null
----
-<!--
----
 layout: page
 title: githosted.site
 description: Credits and information about the website githosted.site (githosted.github.io).
@@ -11,7 +8,6 @@ permalink: "/"
 author: vasili8m
 menutitle: Home
 ---
--->
 <!DOCTYPE html>
 <html>
 <head>
@@ -19,17 +15,17 @@ menutitle: Home
 		<!-- link to main stylesheet -->
 		<link rel="stylesheet" type="text/css" href="/css/main.css"
 		      <script async defer src="https://buttons.github.io/buttons.js"></script>
-	</head>
+</head>
 
     {% include header.html %}
 
     <body>
             <div class="about">
     
-    <p>githosted.site is:</p>
+    <p>githosted.site</p>
     
       <ul class="list-unstyled">
-        <!--<li>Marked up with <a href="http://validator.w3.org/check?uri=http%3A%2F%2Fjmcglone.com%2F" title="HTML5 Validator">W3C validated HTML5</a></li> -->
+        <li>Marked up with <a href="http://validator.w3.org/check?uri=http%3A%2F%2Fjmcglone.com%2F" title="HTML5 Validator">W3C validated HTML5</a></li>
         <!--<li><a href="http://www.w3.org/TR/WCAG20/" title="WCAG 2.0">WCAG 2.0</a> compliant</li> -->
         <!--<li><a href="http://alistapart.com/article/responsive-web-design" title="Responsive Web Design at A List Apart">Responsive</a> and compatible with a variety of devices</li> -->
         <!--<li>Built with <a href="http://getbootstrap.com/" title="Bootstrap 3.0">Bootstrap 3.0</a></li> -->
@@ -41,64 +37,11 @@ menutitle: Home
       </ul> 
       </div>
 
-<div id="content" class="content">
-    <h3>Recent Posts</h3>
-    <ul class="category recent-posts">       
-        {% for post in site.posts limit:5  %}
-        {% unless post.draft %}
 
-        {% if post.menutitle %}
-        {% assign title = post.menutitle %}
-        {% else %}
-        {% assign title = post.title %}
-        {% endif %}
-
-        <li>
-            <div class="article">
-                <article class="article" itemscope itemtype="http://schema.org/BlogPosting">
-                    <header class="post-header">
-                        <span class="title"><a itemprop="name" href="{{ post.url | absolute_url }}" title="{{ title }}">{{ title }}</a></span>
-                        <time class="date" itemprop="datePublished" datetime="{{post.date | date: "%Y-%m-%d"}}">{{post.date | date: "%B %e, %Y"}}</time>
-                    </header>
-                </article>
-            </div>
-        </li>
-        {% endunless %}
-        {% endfor %}
-    </ul>
-
-
-    {% assign sorted_cats = site.categories | sort %}
-    {% for category in sorted_cats %}
-    {% assign sorted_posts = category[1] | reversed %}
-    <h3 id="{{category[0] | uri_escape | downcase | slugify }}">{{category[0] | camelcase }}</h3>
-    <ul class="category {{category[0] | uri_escape | downcase | slugify}}">  
-        {% for post in sorted_posts %}
-        {% unless post.draft %}
-
-        {% if post.menutitle %}
-        {% assign title = post.menutitle %}
-        {% else %}
-        {% assign title = post.title %}
-        {% endif %}
-
-        <li>
-            <div class="article">
-                <article class="article" itemscope itemtype="http://schema.org/BlogPosting">
-                    <header class="post-header">
-                        <span class="title"><a itemprop="name" href="{{ post.url | absolute_url }}" title="{{ title }}">{{ title }}</a></span>
-                        <time class="date" itemprop="datePublished" datetime="{{post.date | date: "%Y-%m-%d"}}">{{post.date | date: "%B %e, %Y"}}</time>
-                    </header>
-                </article>
-            </div>
-        </li>
-        {% endunless %}
-        {% endfor %}
-    </ul>
-    {% endfor %}
+		
 
 <p class="github-button-container">
-      <a class="github-button" href="https://github.com/githostedsite/githostedsite.github.io/discussions" data-color-scheme="no-preference: light; light: dark_high_contrast; dark: dark_high_contrast;" data-icon="octicon-comment-discussion" data-size="large" aria-label="Discuss githostedsite/githostedsite.github.io on GitHub">Discuss</a>
+<a class="github-button" href="https://github.com/githostedsite/githostedsite.github.io/discussions" data-color-scheme="no-preference: light; light: dark_high_contrast; dark: dark_high_contrast;" data-icon="octicon-comment-discussion" data-size="large" aria-label="Discuss githostedsite/githostedsite.github.io on GitHub">Discuss</a>
     </p>
 
 </div>
