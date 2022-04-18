@@ -1,4 +1,4 @@
-default:                                                      # Fallback if nothing is specified
+vasili8m:                                                      # Fallback if nothing is specified
   initial:      vasili8m                                      # used for author lookup in posts and for first two characters in the about page back button
   name:         "Vasilii-Zherar Pavlov"                       # used to display author name
   cover:                          # OPTIONAL: defines location of cover image in about page
