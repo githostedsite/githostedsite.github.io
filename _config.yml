@@ -19,16 +19,16 @@
 subtitle: " "
  description: "Blog about git-hosted websites and technologies to build them."
  keywords: "github jekyll features githosted githostedsite"
- language: "ru" # default language of the blog. 
-baseurl: «/about» # the subpath of your site, e.g. /blog
-url: "https://githostedsite.github.io" # the base hostname & protocol for your site. 
+ language: "en" # default language of the blog. 
+baseurl: «/» # the subpath of your site, e.g. /blog
+url: "https://githosted.site" # the base hostname & protocol for your site. 
 # Have a look at robots.txt as well!
  permalink: /blog/:year-:month-:day/:title
 # cover: /assets/mountain-cover.jpg
  disqus_shortname: "githostedsite"
 
 # Build settings 
-safe: true
+safe: false
   sass:
     style: compressed
 markdown: kramdown
@@ -38,17 +38,17 @@ markdown: kramdown
 # include: ['_posts', '_pages', 'blog', '_layouts', '_includes', 'css', 'projects', 'data', 'about']
 # exclude: ['vendor', 'developer-tools', '.github','' ]
   plugins:
-#   - jekyll-mentions
-#   - jekyll-feed
-#   - jekyll-sitemap
-#   - jekyll-redirect-from
+   - jekyll-mentions
+   - jekyll-feed
+   - jekyll-sitemap
+   - jekyll-redirect-from
 
  compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]
   ignore:
-#    envs: [local]
+    envs: [local]
     blanklines: true
-#  startings: [head, body]
+  startings: [head, body]
 
-theme: jekyll-theme-architect
+#theme: jekyll-theme-architect
