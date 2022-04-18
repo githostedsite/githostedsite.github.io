@@ -27,6 +27,7 @@ permalink: /blog/:categories/:title
 disqus_shortname: "githostedsite"
 
 # Build settings
+safe: false
 # sass:
 #    style: compressed
 markdown: kramdown
