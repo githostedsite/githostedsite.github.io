@@ -35,8 +35,8 @@ markdown: kramdown
  kramdown:
   syntax_highlighter_opts:
    disable: false
-include: ['_posts', '_pages', 'blog', '_layouts', '_includes', 'css', 'projects', 'data', 'about']
-exclude: ['vendor', 'developer-tools', '.github','' ]
+# include: ['_posts', '_pages', 'blog', '_layouts', '_includes', 'css', 'projects', 'data', 'about']
+# exclude: ['vendor', 'developer-tools', '.github','' ]
   plugins:
 #   - jekyll-mentions
 #   - jekyll-feed
