@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "bundler": "^0.8.0",
+    "jekyll": "^3.0.0-beta1"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
