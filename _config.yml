@@ -50,3 +50,5 @@ include: ['_posts', '_pages', 'blog', '_layouts', '_includes', 'css', 'Projects'
     envs: [local]
     blanklines: true
   startings: [head, body]
+
+theme: jekyll-theme-architect
