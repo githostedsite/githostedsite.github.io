@@ -23,7 +23,7 @@ subtitle: " "
 baseurl: «/about» # the subpath of your site, e.g. /blog
 url: "https://githostedsite.github.io" # the base hostname & protocol for your site. 
 # Have a look at robots.txt as well!
- permalink: /blog/:categories/:title
+ permalink: /blog/:year-:month-:day/:title
 # cover: /assets/mountain-cover.jpg
  disqus_shortname: "githostedsite"
 
