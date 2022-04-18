@@ -24,8 +24,12 @@ description: "Попытка составить каталог существу�
    [Сайт проекта]()
    [Документация]()
 - Vercel
-   [Сайт проекта]()
-   [Документация]()
+   [Сайт проекта](https://vercel.com/)
+   [GitHub](https://github.com/vercel/vercel)
+   [Документация](https://vercel.com/docs)
+   [Changelog](https://vercel.com/changelog)
+   [Templates](https://vercel.com/templates)
+   [CLI](https://vercel.com/cli)
 - Graph CMS
    [Сайт проекта]()
    [Документация]()
@@ -42,5 +46,8 @@ description: "Попытка составить каталог существу�
    [Сайт проекта](https://middlemanapp.com/)
    [Документация](https://directory.middlemanapp.com/#/extensions/all)
 - Octopress
+   [Сайт проекта]()
+   [Документация]()
+- Read the docs
    [Сайт проекта]()
    [Документация]()
