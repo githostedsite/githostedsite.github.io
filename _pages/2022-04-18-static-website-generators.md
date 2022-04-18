@@ -7,6 +7,8 @@ description: "Попытка составить каталог существу�
 author: vasili8m
 Categories: Technologies
 tags: Generator Framework
+permalink: /generators
+menutitle: Генераторы сайтов
 ---
 - Github pages
    [Сайт проекта]()
