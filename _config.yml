@@ -1,2 +1,50 @@
-name: githosted.site
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# https://github.com/jwillmer/jekyllDecent
+# https://jekyllrb.com/docs/configuration/options/#build-command-options
+# https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+# https://en.wikipedia.org/wiki/YAML#Basic_components
+# https://jekyllrb.com/docs/configuration/front-matter-defaults/
+# Language codes: http://www.w3schools.com/tags/ref_language_codes.asp
+
+
+# Site settings
+name: "githosted.site"
+title: "githosted.site"
+subtitle: ""
+description: "Blog about git-hosted websites and technologies to build them."
+keywords: "github jekyll features githosted githostedsite"
+language: "ru" # default language of the blog. 
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://githostedsite.github.io" # the base hostname & protocol for your site. Have a look at robots.txt as well!
+permalink: /blog/:categories/:title
+# cover: /assets/mountain-cover.jpg
+disqus_shortname: "githostedsite"
+
+# Build settings
+# sass:
+#    style: compressed
 markdown: kramdown
+# kramdown:
+#  syntax_highlighter_opts:
+#   disable: true
+include: ['_posts']
+# exclude: [vendor, "developer-tools"]
+# plugins:
+#  - jekyll-mentions
+#  - jekyll-feed
+#  - jekyll-sitemap
+#  - jekyll-redirect-from
+
+# compress_html:
+#  clippings: all
+#  comments: ["<!-- ", " -->"]
+#  ignore:
+#    envs: [local]
+#  blanklines: true
+#  startings: [head, body]
