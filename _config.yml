@@ -15,26 +15,27 @@
 
 # Site settings
 name: "githosted.site"
-title: "githosted.site"
-subtitle: ""
-description: "Blog about git-hosted websites and technologies to build them."
-keywords: "github jekyll features githosted githostedsite"
-language: "ru" # default language of the blog. 
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://githostedsite.github.io" # the base hostname & protocol for your site. Have a look at robots.txt as well!
-permalink: /blog/:categories/:title
+# title: "githosted.site"
+# subtitle: ""
+# description: "Blog about git-hosted websites and technologies to build them."
+# keywords: "github jekyll features githosted githostedsite"
+# language: "ru" # default language of the blog. 
+baseurl: «/about» # the subpath of your site, e.g. /blog
+# url: "https://githostedsite.github.io" # the base hostname & protocol for your site. 
+# Have a look at robots.txt as well!
+# permalink: /blog/:categories/:title
 # cover: /assets/mountain-cover.jpg
-disqus_shortname: "githostedsite"
+# disqus_shortname: "githostedsite"
 
 # Build settings
-safe: false
+# safe: false
 # sass:
 #    style: compressed
 markdown: kramdown
 # kramdown:
 #  syntax_highlighter_opts:
 #   disable: true
-include: ['_posts']
+# include: ['_posts']
 # exclude: [vendor, "developer-tools"]
 # plugins:
 #  - jekyll-mentions
