@@ -14,8 +14,8 @@
 
 
 # Site settings
-# name: githosted.site
-title: githosted.site
+ name: githosted.site
+# title: githosted.site
 subtitle: " "
  description: "Blog about git-hosted websites and technologies to build them."
  keywords: "github jekyll features githosted githostedsite"
