@@ -52,3 +52,5 @@ markdown: kramdown
   startings: [head, body]
 
 #theme: jekyll-theme-architect
+
+theme: jekyll-theme-architect
